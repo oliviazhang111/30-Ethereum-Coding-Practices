@@ -18,3 +18,27 @@
 13:56:22.715090 db@open done T·46.49011ms
 14:02:04.305049 db@close closing
 14:02:04.305163 db@close done T·112.433µs
+=============== Nov 12, 2018 (HKT) ===============
+14:37:01.838057 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:37:01.838347 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+14:37:01.838372 db@open opening
+14:37:01.838453 journal@recovery F·1
+14:37:01.844219 journal@recovery recovering @3
+14:37:01.847057 memdb@flush created L0@5 N·3 S·388B "Dat..ion,v35":"eth..\x15Х,v34"
+14:37:01.870757 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+14:37:01.880108 db@janitor F·4 G·0
+14:37:01.880176 db@open done T·41.783732ms
+14:37:57.528774 db@close closing
+14:37:57.528863 db@close done T·87.208µs
+=============== Nov 12, 2018 (HKT) ===============
+14:39:12.486206 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:39:12.486462 version@stat F·[2] S·2KiB[2KiB] Sc·[0.50]
+14:39:12.486480 db@open opening
+14:39:12.486539 journal@recovery F·1
+14:39:12.490037 journal@recovery recovering @6
+14:39:12.492843 memdb@flush created L0@8 N·3 S·388B "Dat..ion,v39":"eth..\x15Х,v38"
+14:39:12.529985 version@stat F·[3] S·2KiB[2KiB] Sc·[0.75]
+14:39:12.535256 db@janitor F·5 G·0
+14:39:12.535298 db@open done T·48.805269ms
+15:31:57.524103 db@close closing
+15:31:57.524317 db@close done T·210.972µs

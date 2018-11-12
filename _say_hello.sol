@@ -8,11 +8,11 @@ contract Greeter {
     require(isOwner(), "Only owner can do that!");
     _;
   }
-  contract(string _greeting) public {
+  constructor(string _greeting) public {
    greeting = _greeting;
    owner = msg.sender;
   }
-  function sayHello() public.view returns(string) {
+  function sayHello() public view returns(string) {
     if (isOwner()) {
        return "Hey Daddy!";
      } else {
